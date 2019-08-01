@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>UAH</th>
+            <th>EUR</th>
+            <th>GBP</th>
+        </tr>
+        {{#get}}
+        <tr align="center">
+            <td>{{id}}</td>
+            <td>{{date}}</td>
+            <td>{{uah}}</td>
+            <td>{{eur}}</td>
+            <td>{{gbp}}</td>
+        </tr>
+        {{/get}}
+    </table>
+
+    <form action="/">
+        <button type="submit">Main page</button>
+    </form>
+
+</body>
+</html>
